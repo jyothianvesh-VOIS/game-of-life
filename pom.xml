@@ -492,6 +492,16 @@
                         <version>2.1</version>
                     </plugin>
                 </plugins>
+                <repository>
+                    <id>jyothianvesh1</id>
+                    <url>https://pkgs.dev.azure.com/jyothianvesh1/_packaging/jyothianvesh1/maven/v1</url>
+                    <releases>
+                    <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                    <enabled>true</enabled>
+                    </snapshots>
+            </repository>
             </reporting>
         </profile>
     </profiles>
